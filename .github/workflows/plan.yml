@@ -19,7 +19,7 @@ jobs:
       - name: checkout Repository code
         uses: actions/checkout@v3
         with:
-          ref: feature
+          ref: main
      
       - name: Print MetaData
         run: |
